@@ -72,4 +72,10 @@
         min-height: 500px;
         width: 300px;
     }
+
+    .review .box-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+        gap:1.5rem;
+    }
 }
