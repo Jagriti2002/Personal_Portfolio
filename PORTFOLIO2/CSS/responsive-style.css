@@ -40,6 +40,9 @@
         min-height: 400px;
         width: 300px;
     }
+    .footer_wrapper .social-icon li{
+        width: 38px;
+    }
 }
 
 @media (max-width:767px){
@@ -77,5 +80,12 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
         gap:1.5rem;
+    }
+
+    .footer_wrapper .social-icon li{
+        width: 28px;
+    }
+    .footer_wrapper .social{
+        margin-left: -10px;
     }
 }
